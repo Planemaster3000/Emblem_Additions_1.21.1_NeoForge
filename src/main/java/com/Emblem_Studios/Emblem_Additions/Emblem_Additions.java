@@ -25,13 +25,13 @@ public class Emblem_Additions {
 
     public Emblem_Additions(IEventBus modEventBus, ModContainer modContainer) {
 
-        ModCreativeModeTabs.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
 
-
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
