@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emblem_stuff:block/rose_quartz_brick_slab"
+    },
+    "type=double": {
+      "model": "emblem_stuff:block/rose_quartz_bricks"
+    },
+    "type=top": {
+      "model": "emblem_stuff:block/rose_quartz_brick_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:soul_sand_valley",
+  "features": "minecraft:ore_quartz_deltas",
+  "step": "underground_ores"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "emblem_stuff:block/smooth_rose_quartz",
+    "side": "emblem_stuff:block/smooth_rose_quartz",
+    "top": "emblem_stuff:block/smooth_rose_quartz"
+  }
+}

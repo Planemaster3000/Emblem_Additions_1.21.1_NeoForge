@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emblem_stuff:block/polished_dripstone_slab"
+    },
+    "type=double": {
+      "model": "emblem_stuff:block/polished_dripstone"
+    },
+    "type=top": {
+      "model": "emblem_stuff:block/polished_dripstone_slab_top"
+    }
+  }
+}

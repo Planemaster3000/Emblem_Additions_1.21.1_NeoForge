@@ -1,0 +1,7 @@
+{
+  "parent": "emblem_stuff:block/quartz_tile",
+  "textures": {
+    "side": "emblem_stuff:block/quartz_tiles_white_amethyst_inverted",
+    "side_b": "emblem_stuff:block/quartz_tiles_white_amethyst"
+  }
+}

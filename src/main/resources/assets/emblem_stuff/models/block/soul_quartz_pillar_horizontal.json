@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "emblem_stuff:block/soul_quartz_pillar_top",
+    "side": "emblem_stuff:block/soul_quartz_pillar"
+  }
+}

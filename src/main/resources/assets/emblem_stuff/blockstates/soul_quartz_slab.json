@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emblem_stuff:block/soul_quartz_slab"
+    },
+    "type=double": {
+      "model": "emblem_stuff:block/soul_quartz_block"
+    },
+    "type=top": {
+      "model": "emblem_stuff:block/soul_quartz_slab_top"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "inverted=false": {
+      "model": "emblem_stuff:block/quartz_tiles_rose_amethyst"
+    },
+    "inverted=true": {
+      "model": "emblem_stuff:block/quartz_tiles_rose_amethyst_inverted"
+    }
+  }
+}

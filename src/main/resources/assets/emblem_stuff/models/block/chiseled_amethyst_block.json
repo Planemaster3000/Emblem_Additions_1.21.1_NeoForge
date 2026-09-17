@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "emblem_stuff:block/chiseled_amethyst_block_top",
+    "side": "emblem_stuff:block/chiseled_amethyst_block"
+  }
+}

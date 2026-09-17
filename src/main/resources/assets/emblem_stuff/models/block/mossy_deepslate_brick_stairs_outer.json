@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "emblem_stuff:block/mossy_deepslate_bricks",
+    "side": "emblem_stuff:block/mossy_deepslate_bricks",
+    "top": "emblem_stuff:block/mossy_deepslate_bricks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+      "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "emblem_stuff:block/chiseled_prismarine_bricks_top",
+    "side": "emblem_stuff:block/chiseled_prismarine_bricks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:nether_wastes",
+  "features": "emblem_stuff:nether_rose_quartz_ore_rare",
+  "step": "underground_ores"
+}
