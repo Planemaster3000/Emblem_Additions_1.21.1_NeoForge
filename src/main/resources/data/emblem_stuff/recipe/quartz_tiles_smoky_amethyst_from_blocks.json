@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "quartz_tiles_smoky_amethyst",
+  "key": {
+    "#": {
+      "item": "emblem_stuff:smoky_quartz_block"
+    },
+    "X": {
+      "item": "emblem_stuff:polished_amethyst"
+    }
+  },
+  "pattern": [
+    "#X",
+    "X#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "emblem_stuff:quartz_tiles_smoky_amethyst"
+  }
+}

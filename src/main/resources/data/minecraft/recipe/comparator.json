@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "I": {
+      "tag": "emblem_stuff:stone_crafting"
+    },
+    "X": {
+      "tag": "emblem_stuff:quartz_crafting_basic"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "result": {
+    "id": "minecraft:comparator"
+  },
+  "show_notification": true
+}

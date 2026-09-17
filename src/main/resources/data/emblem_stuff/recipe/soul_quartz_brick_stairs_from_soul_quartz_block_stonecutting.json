@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "emblem_stuff:soul_quartz_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "emblem_stuff:soul_quartz_brick_stairs"
+  }
+}

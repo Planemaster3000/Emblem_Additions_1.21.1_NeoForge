@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "emblem_stuff:elder_prismarine_shard"
+    },
+    "C": {
+      "item": "minecraft:prismarine_crystals"
+    }
+  },
+  "pattern": [
+    "#C#",
+    "CCC",
+    "#C#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emblem_stuff:elder_sea_lantern"
+  }
+}

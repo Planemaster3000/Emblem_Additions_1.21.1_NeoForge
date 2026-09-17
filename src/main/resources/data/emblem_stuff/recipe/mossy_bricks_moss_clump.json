@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mossy_bricks",
+  "ingredients": [
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "emblem_stuff:moss_clump"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "emblem_stuff:mossy_bricks"
+  }
+}

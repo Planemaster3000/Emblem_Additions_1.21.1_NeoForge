@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "quartz_tiles_soul_rose",
+  "key": {
+    "#": {
+      "item": "emblem_stuff:soul_quartz_block"
+    },
+    "X": {
+      "item": "emblem_stuff:rose_quartz_block"
+    }
+  },
+  "pattern": [
+    "#X",
+    "X#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "emblem_stuff:quartz_tiles_soul_rose"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "emblem_stuff:quartz_blocks_crafting_basic"
+    },
+        {
+      "tag": "emblem_stuff:quartz_blocks_crafting_basic"
+    },
+        {
+      "tag": "emblem_stuff:quartz_blocks_crafting_basic"
+    },
+        {
+      "tag": "emblem_stuff:quartz_blocks_crafting_basic"
+    },
+    {
+      "item": "minecraft:soul_soil"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "emblem_stuff:soul_quartz_block"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "emblem_stuff:dripstone_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "emblem_stuff:dripstone_brick_stairs"
+  }
+}

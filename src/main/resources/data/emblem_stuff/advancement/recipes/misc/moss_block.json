@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_moss_clump": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:moss_clump"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emblem_stuff:moss_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_moss_clump"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emblem_stuff:moss_block"
+    ]
+  }
+}

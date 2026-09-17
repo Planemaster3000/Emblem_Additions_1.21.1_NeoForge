@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smooth_amethyst": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:smooth_amethyst"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emblem_stuff:smooth_amethyst_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_smooth_amethyst"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emblem_stuff:smooth_amethyst_slab"
+    ]
+  }
+}
