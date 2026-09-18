@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": [
+    "minecraft:crimson_forest",
+    "minecraft:warped_forest",
+    "minecraft:soul_sand_valley"
+  ],
+  "features": "minecraft:ore_quartz_nether",
+  "steps": "underground_decoration"
+}
