@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "emblem_stuff:breeze_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:breeze_rod"
+  }
+}

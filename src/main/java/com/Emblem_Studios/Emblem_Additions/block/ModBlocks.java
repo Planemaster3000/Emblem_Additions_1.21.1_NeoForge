@@ -1019,6 +1019,12 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.BONE_BLOCK)
             ));
+    public static final DeferredBlock<RotatedPillarBlock> BREEZE_BLOCK = registerBlock("breeze_block",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 2.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.BONE_BLOCK)
+            ));
     //---REGISTRIES---
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

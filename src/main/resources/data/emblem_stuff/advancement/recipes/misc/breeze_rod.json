@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_breeze_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:breeze_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emblem_stuff:breeze_rod_uncrafting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_breeze_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emblem_stuff:breeze_rod_uncrafting"
+    ]
+  }
+}
