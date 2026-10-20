@@ -1,0 +1,7 @@
+{
+  "asset_id": "minecraft:omen",
+  "description": {
+    "translate": "Omen Armor Trim"
+  },
+  "template_item": "emblem_stuff:omen_armor_trim_smithing_template"
+}

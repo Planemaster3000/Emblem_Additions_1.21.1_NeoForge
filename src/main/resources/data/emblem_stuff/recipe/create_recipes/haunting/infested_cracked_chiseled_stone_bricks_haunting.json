@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "emblem_stuff:cracked_chiseled_stone_bricks"
+    }
+  ],
+  "results": [
+    {
+      "id": "emblem_stuff:infested_cracked_chiseled_stone_bricks"
+    }
+  ]
+}

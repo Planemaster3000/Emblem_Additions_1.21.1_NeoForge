@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingblueient": {
+    "item": "emblem_stuff:cracked_blue_nether_bricks"
+  },
+  "result": {
+    "count": 2,
+    "id": "emblem_stuff:cracked_blue_nether_brick_slab"
+  }
+}

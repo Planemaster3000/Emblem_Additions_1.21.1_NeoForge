@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "emblem_stuff:quartz_tiles_soul_rose"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "id": "emblem_stuff:soul_quartz",
+      "count": 2
+    },
+    {
+      "id": "emblem_stuff:rose_quartz",
+      "count": 2
+    }
+  ]
+}

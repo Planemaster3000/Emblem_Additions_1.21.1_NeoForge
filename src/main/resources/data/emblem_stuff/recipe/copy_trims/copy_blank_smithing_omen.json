@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "blank_copies",
+  "ingredients": [
+    {
+      "item": "emblem_stuff:omen_armor_trim_smithing_template"
+    },
+    {
+      "item": "emblem_stuff:blank_smithing_template"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "emblem_stuff:omen_armor_trim_smithing_template"
+  }
+}

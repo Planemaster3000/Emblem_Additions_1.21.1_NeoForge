@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "emblem_stuff:quartz_tiles_soul_amethyst"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "id": "emblem_stuff:soul_quartz",
+      "count": 2
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "count": 2
+    }
+  ]
+}

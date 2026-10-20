@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "emblem_stuff:quartz_tiles_white_amethyst"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "id": "minecraft:quartz",
+      "count": 2
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "count": 2
+    }
+  ]
+}

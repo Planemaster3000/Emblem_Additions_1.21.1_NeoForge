@@ -5,8 +5,10 @@ import com.Emblem_Studios.Emblem_Additions.block.ModBlocks;
 import com.Emblem_Studios.Emblem_Additions.item.custom.FuelBlockItem;
 import com.Emblem_Studios.Emblem_Additions.item.custom.MossClumpItem;
 import com.Emblem_Studios.Emblem_Additions.item.custom.QuartzChisel;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.SmithingTemplateItem;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -27,6 +29,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BLANK_SMITHING_TEMPLATE = ITEMS.register("blank_smithing_template",
             () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final DeferredItem<SmithingTemplateItem> OMEN_ARMOR_TRIM_SMITHING_TEMPLATE = ITEMS.register("omen_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(Emblem_Additions.MOD_ID, "omen")));
+    public static final DeferredItem<SmithingTemplateItem> STELLAR_ARMOR_TRIM_SMITHING_TEMPLATE = ITEMS.register("stellar_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(Emblem_Additions.MOD_ID, "stellar")));
 
     public static final DeferredItem<Item> QUARTZ_CHISEL = ITEMS.register("quartz_chisel",
             () -> new QuartzChisel(new Item.Properties().durability(128)));

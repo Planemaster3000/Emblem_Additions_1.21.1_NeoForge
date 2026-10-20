@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "emblem_stuff:cracked_blue_nether_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "emblem_stuff:cracked_blue_nether_brick_stairs"
+  }
+}

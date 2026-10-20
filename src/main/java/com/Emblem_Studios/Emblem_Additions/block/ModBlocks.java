@@ -1,10 +1,7 @@
 package com.Emblem_Studios.Emblem_Additions.block;
 
 import com.Emblem_Studios.Emblem_Additions.Emblem_Additions;
-import com.Emblem_Studios.Emblem_Additions.block.custom.AmethystPillarBlock;
-import com.Emblem_Studios.Emblem_Additions.block.custom.AmethystSlabBlock;
-import com.Emblem_Studios.Emblem_Additions.block.custom.AmethystStairBlock;
-import com.Emblem_Studios.Emblem_Additions.block.custom.QuartzTileBlock;
+import com.Emblem_Studios.Emblem_Additions.block.custom.*;
 import com.Emblem_Studios.Emblem_Additions.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -618,6 +615,31 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
             ));
+    //Lapis Bricks
+    public static final DeferredBlock<Block> LAPIS_BRICKS = registerBlock("lapis_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+            ));
+    public static final DeferredBlock<StairBlock> LAPIS_BRICK_STAIRS = registerBlock("lapis_brick_stairs",
+            () -> new StairBlock(ModBlocks.LAPIS_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of()
+                    .strength(3.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+            ));
+    public static final DeferredBlock<SlabBlock> LAPIS_BRICK_SLAB = registerBlock("lapis_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(3.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+            ));
+    public static final DeferredBlock<WallBlock> LAPIS_BRICK_WALL = registerBlock("lapis_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(3.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+            ));
     //Quartz Blocks
     public static final DeferredBlock<StairBlock> QUARTZ_BRICK_STAIRS = registerBlock("quartz_brick_stairs",
             () -> new StairBlock(Blocks.QUARTZ_BRICKS.defaultBlockState(), BlockBehaviour.Properties.of()
@@ -1012,6 +1034,123 @@ public class ModBlocks {
                     .sound(SoundType.STONE),
                     Component.translatable("tooltip.emblem_stuff.quartz_tiles.soul_amethyst")
             ));
+    //Nether Brick Blocks
+    public static final DeferredBlock<StairBlock> CRACKED_NETHER_BRICK_STAIRS = registerBlock("cracked_nether_brick_stairs",
+            () -> new StairBlock(Blocks.CRACKED_NETHER_BRICKS.defaultBlockState(), BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<SlabBlock> CRACKED_NETHER_BRICK_SLAB = registerBlock("cracked_nether_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<WallBlock> CRACKED_NETHER_BRICK_WALL = registerBlock("cracked_nether_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+
+    public static final DeferredBlock<FenceBlock> RED_NETHER_BRICK_FENCE = registerBlock("red_nether_brick_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<Block> CRACKED_RED_NETHER_BRICKS = registerBlock("cracked_red_nether_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<StairBlock> CRACKED_RED_NETHER_BRICK_STAIRS = registerBlock("cracked_red_nether_brick_stairs",
+            () -> new StairBlock(ModBlocks.CRACKED_RED_NETHER_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<SlabBlock> CRACKED_RED_NETHER_BRICK_SLAB = registerBlock("cracked_red_nether_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<WallBlock> CRACKED_RED_NETHER_BRICK_WALL = registerBlock("cracked_red_nether_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<Block> CHISELED_RED_NETHER_BRICKS = registerBlock("chiseled_red_nether_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+
+    public static final DeferredBlock<Block> BLUE_NETHER_BRICKS = registerBlock("blue_nether_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<StairBlock> BLUE_NETHER_BRICK_STAIRS = registerBlock("blue_nether_brick_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_NETHER_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<SlabBlock> BLUE_NETHER_BRICK_SLAB = registerBlock("blue_nether_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<WallBlock> BLUE_NETHER_BRICK_WALL = registerBlock("blue_nether_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<FenceBlock> BLUE_NETHER_BRICK_FENCE = registerBlock("blue_nether_brick_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<Block> CRACKED_BLUE_NETHER_BRICKS = registerBlock("cracked_blue_nether_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<StairBlock> CRACKED_BLUE_NETHER_BRICK_STAIRS = registerBlock("cracked_blue_nether_brick_stairs",
+            () -> new StairBlock(ModBlocks.CRACKED_BLUE_NETHER_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<SlabBlock> CRACKED_BLUE_NETHER_BRICK_SLAB = registerBlock("cracked_blue_nether_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<WallBlock> CRACKED_BLUE_NETHER_BRICK_WALL = registerBlock("cracked_blue_nether_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
+    public static final DeferredBlock<Block> CHISELED_BLUE_NETHER_BRICKS = registerBlock("chiseled_blue_nether_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_BRICKS)
+            ));
     //Mob Compacting Blocks
     public static final DeferredBlock<RotatedPillarBlock> BLAZE_BLOCK = registerBlockWithoutItem("blaze_block",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of()
@@ -1024,6 +1163,11 @@ public class ModBlocks {
                     .strength(2.0f, 2.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.BONE_BLOCK)
+            ));
+    public static final DeferredBlock<ExplosiveBlock> GUNPOWDER_BLOCK = registerBlock("gunpowder_block",
+            () -> new ExplosiveBlock(BlockBehaviour.Properties.of()
+                    .strength(0.5f)
+                    .sound(SoundType.SAND)
             ));
     //---REGISTRIES---
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

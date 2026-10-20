@@ -1,0 +1,7 @@
+{
+  "asset_id": "minecraft:stellar",
+  "description": {
+    "translate": "Stellar Armor Trim"
+  },
+  "template_item": "emblem_stuff:stellar_armor_trim_smithing_template"
+}

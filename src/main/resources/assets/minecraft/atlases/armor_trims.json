@@ -38,7 +38,11 @@
                 "trims/models/armor/flow",
                 "trims/models/armor/flow_leggings",
                 "trims/models/armor/bolt",
-                "trims/models/armor/bolt_leggings"
+                "trims/models/armor/bolt_leggings",
+                "trims/models/armor/omen",
+                "trims/models/armor/omen_leggings",
+                "trims/models/armor/stellar",
+                "trims/models/armor/stellar_leggings"
             ],
             "palette_key": "trims/color_palettes/trim_palette",
             "permutations": {

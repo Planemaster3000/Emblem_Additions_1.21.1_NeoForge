@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "ingredient": {
+    "item": "emblem_stuff:nether_smoky_quartz_ore"
+  },
+  "result": {
+    "id": "emblem_stuff:smoky_quartz"
+  }
+}

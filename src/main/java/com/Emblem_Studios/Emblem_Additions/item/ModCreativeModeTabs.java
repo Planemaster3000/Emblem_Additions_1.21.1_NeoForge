@@ -11,6 +11,29 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
 
 import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.*;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.BLUE_NETHER_BRICKS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.BLUE_NETHER_BRICK_FENCE;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.BLUE_NETHER_BRICK_SLAB;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.BLUE_NETHER_BRICK_STAIRS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.BLUE_NETHER_BRICK_WALL;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CHISELED_BLUE_NETHER_BRICKS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CHISELED_RED_NETHER_BRICKS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_BLUE_NETHER_BRICKS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_BLUE_NETHER_BRICK_SLAB;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_BLUE_NETHER_BRICK_STAIRS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_BLUE_NETHER_BRICK_WALL;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_NETHER_BRICK_SLAB;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_NETHER_BRICK_STAIRS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_NETHER_BRICK_WALL;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_RED_NETHER_BRICKS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_RED_NETHER_BRICK_SLAB;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_RED_NETHER_BRICK_STAIRS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.CRACKED_RED_NETHER_BRICK_WALL;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.LAPIS_BRICKS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.LAPIS_BRICK_SLAB;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.LAPIS_BRICK_STAIRS;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.LAPIS_BRICK_WALL;
+import static com.Emblem_Studios.Emblem_Additions.block.ModBlocks.RED_NETHER_BRICK_FENCE;
 import static com.Emblem_Studios.Emblem_Additions.item.ModItems.*;
 
 public class ModCreativeModeTabs {
@@ -123,6 +146,12 @@ public class ModCreativeModeTabs {
                         output.accept(DARK_ELDER_PRISMARINE_STAIRS);
                         output.accept(DARK_ELDER_PRISMARINE_SLAB);
                         output.accept(DARK_ELDER_PRISMARINE_WALL);
+
+                        output.accept(LAPIS_BRICKS.get());
+                        output.accept(LAPIS_BRICK_STAIRS.get());
+                        output.accept(LAPIS_BRICK_SLAB.get());
+                        output.accept(LAPIS_BRICK_WALL.get());
+
                         output.accept(NETHER_ROSE_QUARTZ_ORE);    //QUARTZ SETS
                         output.accept(NETHER_SMOKY_QUARTZ_ORE);
                         output.accept(QUARTZ_BRICK_STAIRS);
@@ -186,10 +215,33 @@ public class ModCreativeModeTabs {
                         output.accept(QUARTZ_TILES_ROSE_AMETHYST);
                         output.accept(QUARTZ_TILES_SMOKY_AMETHYST);
                         output.accept(QUARTZ_TILES_SOUL_AMETHYST);    //QUARTZ SETS END
+                        output.accept(CRACKED_NETHER_BRICK_STAIRS.get());
+                        output.accept(CRACKED_NETHER_BRICK_SLAB.get());
+                        output.accept(CRACKED_NETHER_BRICK_WALL.get());
+                        output.accept(RED_NETHER_BRICK_FENCE.get());
+                        output.accept(CRACKED_RED_NETHER_BRICKS.get());
+                        output.accept(CRACKED_RED_NETHER_BRICK_STAIRS.get());
+                        output.accept(CRACKED_RED_NETHER_BRICK_SLAB.get());
+                        output.accept(CRACKED_RED_NETHER_BRICK_WALL.get());
+                        output.accept(CHISELED_RED_NETHER_BRICKS.get());
+                        output.accept(BLUE_NETHER_BRICKS.get());
+                        output.accept(BLUE_NETHER_BRICK_STAIRS.get());
+                        output.accept(BLUE_NETHER_BRICK_SLAB.get());
+                        output.accept(BLUE_NETHER_BRICK_WALL.get());
+                        output.accept(BLUE_NETHER_BRICK_FENCE.get());
+                        output.accept(CRACKED_BLUE_NETHER_BRICKS.get());
+                        output.accept(CRACKED_BLUE_NETHER_BRICK_STAIRS.get());
+                        output.accept(CRACKED_BLUE_NETHER_BRICK_SLAB.get());
+                        output.accept(CRACKED_BLUE_NETHER_BRICK_WALL.get());
+                        output.accept(CHISELED_BLUE_NETHER_BRICKS.get());
+
                         output.accept(ModItems.BLAZE_BLOCK);
                         output.accept(BREEZE_BLOCK);
+                        output.accept(GUNPOWDER_BLOCK.get());
 
                         output.accept(BLANK_SMITHING_TEMPLATE);
+                        output.accept(OMEN_ARMOR_TRIM_SMITHING_TEMPLATE.get());
+                        output.accept(STELLAR_ARMOR_TRIM_SMITHING_TEMPLATE.get());
 
                         output.accept(INFESTED_MOSSY_CHISILED_STONE_BRICKS);
                         output.accept(INFESTED_CRACKED_CHISILED_STONE_BRICKS);
