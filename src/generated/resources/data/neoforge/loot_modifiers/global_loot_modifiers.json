@@ -1,0 +1,23 @@
+{
+  "entries": [
+    "emblem_stuff:blank_template_to_ancient_city",
+    "emblem_stuff:blank_template_to_bastion_bridge",
+    "emblem_stuff:blank_template_to_bastion_other",
+    "emblem_stuff:blank_template_to_bastion_treasure",
+    "emblem_stuff:blank_template_to_buried_treasure",
+    "emblem_stuff:blank_template_to_desert_pyramid",
+    "emblem_stuff:blank_template_to_end_city_treasure",
+    "emblem_stuff:blank_template_to_jungle_temple",
+    "emblem_stuff:blank_template_to_nether_bridge",
+    "emblem_stuff:blank_template_to_pillager_outpost",
+    "emblem_stuff:blank_template_to_ruined_portal",
+    "emblem_stuff:blank_template_to_shipwreck_treasure",
+    "emblem_stuff:blank_template_to_simple_dungeon",
+    "emblem_stuff:blank_template_to_stronghold_corridor",
+    "emblem_stuff:blank_template_to_stronghold_library",
+    "emblem_stuff:blank_template_to_woodland_mansion",
+    "emblem_stuff:blank_template_to_trial_chambers",
+    "emblem_stuff:blank_template_to_trial_chambers_ominous"
+  ],
+  "replace": false
+}

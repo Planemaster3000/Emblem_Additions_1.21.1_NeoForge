@@ -217,5 +217,20 @@
   "tooltip.emblem_stuff.quartz_tiles.smoky_amethyst": "§7Smoky Quartz§r & §5Amethyst§r",
   "tooltip.emblem_stuff.quartz_tiles.soul_amethyst": "§bSoul Quartz§r & §5Amethyst§r",
 
-  "creativetab.emblem_stuff.emblem_additions": "Emblem Additions"
+  "creativetab.emblem_stuff.emblem_additions": "Emblem Additions",
+
+  "advancements.additions.root.title": "Additions",
+  "advancements.additions.root.description": "Fun additions from Emblem Studios!",
+  "advancements.additions.quartz_chisel.title": "How To Get Chiseled",
+  "advancements.additions.quartz_chisel.description": "Craft this handy tool for tinkering",
+  "advancements.additions.soul_quartz.title": "Quartz With Some Soul",
+  "advancements.additions.soul_quartz.description": "Acquire Soul Quartz",
+  "advancements.additions.amethyst_blocks.title": "Resonating Blocks",
+  "advancements.additions.amethyst_blocks.description": "Acquire Amethyst in all it's new styles",
+  "advancements.additions.quartz_tiles_collect_all.title": "Endless Possibilities",
+  "advancements.additions.quartz_tiles_collect_all.description": "Collect every combination of Quartz Tiles!",
+  "advancements.additions.blank_template_get.title": "Drawing A Blank",
+  "advancements.additions.blank_template_get.description": "Find a Blank Smithing Template",
+  "advancements.additions.blank_template_copy_all.title": "Printing Style",
+  "advancements.additions.blank_template_copy_all.description": "Use a Blank Smithing Template to copy every single Armor Trim"
 }

@@ -3,6 +3,7 @@ package com.Emblem_Studios.Emblem_Additions;
 import com.Emblem_Studios.Emblem_Additions.block.ModBlocks;
 import com.Emblem_Studios.Emblem_Additions.item.ModCreativeModeTabs;
 import com.Emblem_Studios.Emblem_Additions.item.ModItems;
+import com.Emblem_Studios.Emblem_Additions.loot.ModLootModifers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -35,6 +36,8 @@ public class Emblem_Additions {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifers.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 

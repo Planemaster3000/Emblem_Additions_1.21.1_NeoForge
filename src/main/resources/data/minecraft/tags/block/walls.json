@@ -3,6 +3,8 @@
     "emblem_stuff:cracked_stone_brick_wall",
     "emblem_stuff:mossy_cobbled_deepslate_wall",
     "emblem_stuff:mossy_deepslate_brick_wall",
+    "emblem_stuff:cracked_deepslate_brick_wall",
+    "emblem_stuff:cracked_deepslate_tile_wall",
     "emblem_stuff:mossy_deepslate_tile_wall",
     "emblem_stuff:polished_granite_wall",
     "emblem_stuff:granite_brick_wall",
@@ -22,6 +24,11 @@
     "emblem_stuff:elder_prismarine_wall",
     "emblem_stuff:polished_elder_prismarine_wall",
     "emblem_stuff:elder_prismarine_brick_wall",
-    "emblem_stuff:dark_elder_prismarine_wall"
+    "emblem_stuff:dark_elder_prismarine_wall",
+    "emblem_stuff:cracked_nether_brick_wall",
+    "emblem_stuff:cracked_red_nether_brick_wall",
+    "emblem_stuff:blue_nether_brick_wall",
+    "emblem_stuff:cracked_blue_nether_brick_wall",
+    "emblem_stuff:lapis_brick_wall"
   ]
 }

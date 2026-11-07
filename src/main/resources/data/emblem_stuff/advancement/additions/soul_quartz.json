@@ -1,0 +1,33 @@
+{
+  "parent": "emblem_stuff:additions/quartz_chisel",
+  "criteria": {
+    "has_soul_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:soul_quartz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.additions.soul_quartz.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "emblem_stuff:soul_quartz"
+    },
+    "title": {
+      "translate": "advancements.additions.soul_quartz.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_soul_quartz"
+    ]
+  ]
+}

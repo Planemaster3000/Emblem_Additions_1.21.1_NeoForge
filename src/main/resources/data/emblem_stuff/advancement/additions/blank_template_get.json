@@ -1,0 +1,36 @@
+{
+  "parent": "emblem_stuff:additions/root",
+  "criteria": {
+    "has_blank_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:blank_smithing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.additions.blank_template_get.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "emblem_stuff:blank_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.additions.blank_template_get.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_blank_template"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}

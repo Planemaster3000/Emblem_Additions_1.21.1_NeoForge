@@ -1,0 +1,186 @@
+{
+  "parent": "emblem_stuff:additions/blank_template_get",
+  "criteria": {
+    "crafted_bolt": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_bolt"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_coast": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_coast"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_dune": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_dune"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_eye": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_eye"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_flow": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_flow"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_host": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_host"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_raiser": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_raiser"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_rib": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_rib"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_sentry": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_sentry"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_shaper": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_shaper"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_silence": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_silence"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_snout": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_snout"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_spire": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_spire"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_tide": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_tide"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_vex": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_vex"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_ward": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_ward"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_wayfinder": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_wayfinder"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "crafted_wild": {
+      "conditions": {
+        "recipe_id": "emblem_stuff:copy_trims/copy_blank_smithing_wild"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.additions.blank_template_copy_all.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "emblem_stuff:blank_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.additions.blank_template_copy_all.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_bolt"
+    ],
+    [
+      "crafted_coast"
+    ],
+    [
+      "crafted_dune"
+    ],
+    [
+      "crafted_eye"
+    ],
+    [
+      "crafted_flow"
+    ],
+    [
+      "crafted_host"
+    ],
+    [
+      "crafted_raiser"
+    ],
+    [
+      "crafted_rib"
+    ],
+    [
+      "crafted_sentry"
+    ],
+    [
+      "crafted_shaper"
+    ],
+    [
+      "crafted_silence"
+    ],
+    [
+      "crafted_snout"
+    ],
+    [
+      "crafted_spire"
+    ],
+    [
+      "crafted_tide"
+    ],
+    [
+      "crafted_vex"
+    ],
+    [
+      "crafted_ward"
+    ],
+    [
+      "crafted_wayfinder"
+    ],
+    [
+      "crafted_wild"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

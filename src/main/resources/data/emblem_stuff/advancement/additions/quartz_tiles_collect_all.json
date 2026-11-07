@@ -1,0 +1,219 @@
+{
+  "parent": "emblem_stuff:additions/quartz_chisel",
+  "criteria": {
+    "has_white_rose_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_white_rose"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_white_smoky_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_white_smoky"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rose_smoky_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_rose_smoky"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_white_soul_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_white_soul"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_soul_rose_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_soul_rose"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_soul_smoky_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_soul_smoky"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_white_amethyst_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_white_amethyst"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rose_amethyst_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_rose_amethyst"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_smoky_amethyst_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_smoky_amethyst"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_soul_amethyst_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_tiles_soul_amethyst"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_white_quartz_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:white_quartz_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rose_quartz_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:rose_quartz_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_smoky_quartz_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:smoky_quartz_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_soul_quartz_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:soul_quartz_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_amethyst_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:amethyst_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.additions.quartz_tiles_collect_all.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "emblem_stuff:quartz_tiles_white_rose"
+    },
+    "title": {
+      "translate": "advancements.additions.quartz_tiles_collect_all.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_white_rose_quartz"
+    ],
+    [
+      "has_white_smoky_quartz"
+    ],
+    [
+      "has_rose_smoky_quartz"
+    ],
+    [
+      "has_white_soul_quartz"
+    ],
+    [
+      "has_soul_rose_quartz"
+    ],
+    [
+      "has_soul_smoky_quartz"
+    ],
+    [
+      "has_white_amethyst_quartz"
+    ],
+    [
+      "has_rose_amethyst_quartz"
+    ],
+    [
+      "has_smoky_amethyst_quartz"
+    ],
+    [
+      "has_soul_amethyst_quartz"
+    ],
+    [
+      "has_white_quartz_tiles"
+    ],
+    [
+      "has_rose_quartz_tiles"
+    ],
+    [
+      "has_smoky_quartz_tiles"
+    ],
+    [
+      "has_soul_quartz_tiles"
+    ],
+    [
+      "has_amethyst_tiles"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

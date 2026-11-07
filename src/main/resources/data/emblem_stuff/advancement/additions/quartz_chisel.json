@@ -1,0 +1,33 @@
+{
+  "parent": "emblem_stuff:additions/root",
+  "criteria": {
+    "has_quartz_chisel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:quartz_chisel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.additions.quartz_chisel.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "emblem_stuff:quartz_chisel"
+    },
+    "title": {
+      "translate": "advancements.additions.quartz_chisel.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_quartz_chisel"
+    ]
+  ]
+}

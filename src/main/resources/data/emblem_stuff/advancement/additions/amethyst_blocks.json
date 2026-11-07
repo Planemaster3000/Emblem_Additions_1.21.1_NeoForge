@@ -1,0 +1,102 @@
+{
+  "parent": "emblem_stuff:additions/quartz_chisel",
+  "criteria": {
+    "has_polished_amethyst": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:polished_amethyst"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_chiseled_amethyst": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:chiseled_amethyst_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_amethyst_pillar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:amethyst_pillar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_amethyst_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:amethyst_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_amethyst_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:amethyst_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_smooth_amethyst": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emblem_stuff:smooth_amethyst"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.additions.amethyst_blocks.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "emblem_stuff:polished_amethyst"
+    },
+    "title": {
+      "translate": "advancements.additions.amethyst_blocks.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_amethyst"
+    ],
+    [
+      "has_chiseled_amethyst"
+    ],
+    [
+      "has_amethyst_pillar"
+    ],
+    [
+      "has_amethyst_bricks"
+    ],
+    [
+      "has_amethyst_tiles"
+    ],
+    [
+      "has_smooth_amethyst"
+    ]
+  ],
+  "rewards": {
+    "experience": 15
+  }
+}

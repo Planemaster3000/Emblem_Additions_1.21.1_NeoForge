@@ -1,0 +1,14 @@
+{
+  "type": "emblem_stuff:add_single_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/end_city_treasure"
+    },
+    {
+      "chance": 0.75,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "emblem_stuff:blank_smithing_template"
+}

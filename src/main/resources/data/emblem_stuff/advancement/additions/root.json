@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "emblem_stuff:textures/gui/advancements/backgrounds/additions.png",
+    "description": {
+      "translate": "advancements.additions.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "emblem_stuff:quartz_tiles_white_smoky"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.additions.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
