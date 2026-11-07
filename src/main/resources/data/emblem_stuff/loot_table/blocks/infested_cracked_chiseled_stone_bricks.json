@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "emblem_stuff:infested_cracked_chiseled_stone_bricks"
+          "name": "emblem_stuff:cracked_chiseled_stone_bricks"
         }
       ],
       "rolls": 1.0

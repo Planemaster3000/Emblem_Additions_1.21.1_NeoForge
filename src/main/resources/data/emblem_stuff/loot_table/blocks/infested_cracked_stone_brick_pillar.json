@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "emblem_stuff:infested_cracked_stone_brick_pillar"
+          "name": "emblem_stuff:cracked_stone_brick_pillar"
         }
       ],
       "rolls": 1.0
